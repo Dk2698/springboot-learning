@@ -2,10 +2,9 @@ package com.kumar.book.service;
 
 import com.kumar.book.annotations.Audit;
 import com.kumar.book.annotations.Log;
-import org.springframework.stereotype.Component;
 
 //@Component
-public class UserService {
+public class UserServiceAno {
 
     @Log(message = "Calling createUser()")
     @Audit(user = "admin")

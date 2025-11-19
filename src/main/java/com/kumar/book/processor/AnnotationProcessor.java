@@ -1,12 +1,12 @@
 package com.kumar.book.processor;
 
-import com.kumar.book.service.UserService;
+import com.kumar.book.service.UserServiceAno;
 
 public class AnnotationProcessor {
     public static void main(String[] args) {
-        UserService userService = new UserService();
+        UserServiceAno userServiceAno = new UserServiceAno();
 
-        Class<? extends UserService> aClass = userService.getClass();
+        Class<? extends UserServiceAno> aClass = userServiceAno.getClass();
 
 
     }
